@@ -82,15 +82,7 @@ body {
 
 .container-fluid{
     padding: 40px 150px;
-
 }
-/* #divCarousel{
-    display: flex;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
-    padding-top: 40px;
-} */
 
 /* Secciones de Lorems */
 
@@ -169,30 +161,6 @@ body {
     border: 1px solid rgb(248, 194, 94);
 }
 
-/* .btnNegro,
-.btnSus {
-    text-transform: uppercase;
-    color: white;
-    background-color: black !important;
-    cursor: pointer;
-}
-
-    .btnNegro:hover, .btnSus:hover{
-        color: rgb(248, 194, 94);
-    }
-
-.btnNegro {
-    width: 150px;
-    padding: 5px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.btnSus {
-    width: 150px;
-    text-align: center;
-} */
-
 /*Artistas*/
 
 #seccionArtistas section {
@@ -202,32 +170,45 @@ body {
     padding: 15px;
 }
 
+.artistasTexto {
+    width: 300px;
+    padding-right: 100px;
+}
+
+.artistasCuadros {
+    padding-left: 100px;
+}
+
 .btn-primary{
     background-color: black;
     border: 1px solid white;
-
 }
+
+    .btnNombreArtista:hover {
+        color: rgb(248, 194, 94);
+        background-color: black;
+        border: 1px solid rgb(248, 194, 94);
+    }
+
+    .btnNombreArtista:focus {
+        color: rgb(248, 194, 94);
+        background-color: black;
+        border: 1px solid rgb(248, 194, 94);
+        box-shadow: none;
+    }
 
 .card-body{
     background-color: black;
     color: white;
 }
 
-/* .carousel-inner{
-    display: flex;
-    justify-content: center;
-} */
-
-/* .cuadrosImagenes {
-    margin: 0 auto;
-    width: 400px;
-    height: 300px;
-} */
+.crrArtistas {
+    width: 500px;
+}
 
 .imgcrrArtistas{
     width: 400px;
     height: 300px;
-
 }
 
 /*Exposiciones*/

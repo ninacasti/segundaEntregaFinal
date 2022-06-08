@@ -12,14 +12,6 @@ body {
 
 /*Header*/
 
-.titulo {
-    font-size: 100px;
-    font-style: italic;
-    font-weight: 200;
-    text-align: center;
-    color: #000000;
-}
-
 .listaMenu {
     padding: 3rem;
     list-style-type: none;
@@ -29,23 +21,23 @@ body {
     flex-wrap: wrap;
 }
 
-.listaMenu li {
-    display: inline;
-    padding: 0 30px;
-    background-color: transparent;
-}
-
-.listaMenu a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    background-color: transparent;
-}
-
-    .listaMenu a:hover{
-        color: rgb(248, 194, 94);
+    .listaMenu li {
+        display: inline;
+        padding: 0 30px;
+        background-color: transparent;
     }
+
+    .listaMenu a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        background-color: transparent;
+    }
+
+        .listaMenu a:hover{
+            color: rgb(248, 194, 94);
+        }
 
 /*Inicio*/
 
@@ -61,24 +53,18 @@ body {
     background-size: cover;
 }
 
-.heroGaleria h1 {
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    background-color: transparent;
-    display: flex;
-    flex-wrap: wrap;
-}
+    .heroGaleria h1 {
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 200;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 /*Carrusel de fotos*/
-
-
-.imgcrr{
-    height: 600px;
-
-}
 
 .container-fluid{
     padding: 40px 150px;
@@ -92,29 +78,32 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-content: center;
+    
 }
 
-#sectionInscripciones article {
-    margin: 40px;
-    padding: 40px;
-    text-align: center;
-    border: 2px solid black;
-    background-color: wheat;
-}
+    #sectionInscripciones article {
+        margin: 40px;
+        padding: 40px;
+        text-align: center;
+        border: 2px solid black;
+        background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%,
+            rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%);
+    }
 
-#sectionInscripciones h2 {
-    font-size: 25px;
-    font-weight: 200;
-    text-align: center;
-    color: black;
-    margin-bottom: 20px;
-    background-color: wheat;
-}
+    #sectionInscripciones h2 {
+        font-size: 30px;
+        font-weight: 200;
+        text-align: center;
+        color: black;
+        margin-bottom: 20px;
+        background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%,
+            rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%)
+    }
 
-#sectionInscripciones p {
-    color: black;
-    background-color: wheat;
-}
+    #sectionInscripciones p {
+        color: black;
+        background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%, rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%)
+    }
 
 /* Newsletter */
 
@@ -123,52 +112,76 @@ body {
     place-items: center;
 }
 
-#sectionNews form {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    max-width: 680px;
-    margin: 20px;
-    padding: 40px;
-    background-color: wheat;
-}
+    #sectionNews form {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        max-width: 680px;
+        margin: 20px;
+        padding: 40px;
+        background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%, rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%)
+    }
 
-#sectionNews h2 {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    background-color: wheat;
-}
+    #sectionNews h2 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%, rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%)
+    }
 
-#sectionNews p{
-    color: black;
-    margin-bottom: 5px;
-}
+    #sectionNews p{
+        color: black;
+        margin-bottom: 5px;
+    }
 
-#sectionNews div,
-#sectionNews label {
-    background-color: wheat;
-    color: black;
-    padding: 10px 0;
-}
+    #sectionNews input {
+        background-color: white;
+        padding: 5px;
+        margin: 5px;
+    }
 
-#sectionNews input {
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-}
+    #sectionNews div,
+    #sectionNews label {
+        color: black;
+        padding: 10px 0;
+    }
 
 .btn-outline-light{
     border: 1px solid rgb(248, 194, 94);
 }
 
+/* Redes Sociales */
+
+#sectionRedes h3{
+    display: flex;
+    color: white;
+    font-size: large;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+#sectionRedes div{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#sectionRedes a {
+    padding: 0 15px;
+    margin: 0 1%;
+}
+
 /*Artistas*/
 
-#seccionArtistas section {
-    margin-left: 10%;
-    display: flex;
-    flex-direction: row;
-    padding: 15px;
+#sectionArtistas {
+    padding-top: 50px;
 }
+
+    #sectionArtistas section {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
 
 .artistasTexto {
     width: 300px;
@@ -182,6 +195,7 @@ body {
 .btn-primary{
     background-color: black;
     border: 1px solid white;
+    font-size: larger;
 }
 
     .btnNombreArtista:hover {
@@ -217,17 +231,17 @@ body {
     margin-left: 20%;
 }
 
-#sectionExpos article {
-    padding: 15px;
-}
+    #sectionExpos article {
+        padding: 15px;
+    }
 
-#sectionExpos p {
-    padding-top: 15px;
-}
+    #sectionExpos p {
+        padding-top: 15px;
+    }
 
-#sectionExpos h2, p{
-    color: white;
-}
+    #sectionExpos h2, p {
+        color: white;
+    }
 
 .tablaFechas {
     margin: 5% auto;
@@ -243,12 +257,13 @@ body {
     text-align: left;
     border: 2px solid black;
     padding: 15px;
+    background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%, rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%);
 }
 
 .tablaFechas,
 .tablaMes {
     padding: 15px;
-    background-color: wheat;
+    background: linear-gradient(90deg, rgba(248,194,94,1) 0%, rgba(248,163,94,1) 35%, rgba(248,194,94,1) 67%, rgba(248,163,94,1) 100%);
 }
 
 /*Nosotros*/
@@ -260,60 +275,60 @@ body {
     width: 800px;
 }
 
-#sectionNosotros article {
-    padding: 25px;
-}
+    #sectionNosotros article {
+        padding: 25px;
+    }
 
-#sectionNosotros h2, p{
-    color: white;
-    padding-top: 15px;
-    line-height: 30px;
-}
+    #sectionNosotros h2, p{
+        color: white;
+        padding-top: 15px;
+        line-height: 30px;
+    }
 
 #staffLista {
     margin: 0 auto;
     padding-top: 15px;
 }
 
-#staffLista li {
-    list-style-type: none;
-    color: white;
-    line-height: 30px;
-}
+    #staffLista li {
+        list-style-type: none;
+        color: white;
+        line-height: 30px;
+    }
 
 /*Contacto*/
 
-#sectionContacto{
+#sectionContacto {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#sectionContacto article {
-    padding: 30px;
-    text-align: center;
-}
+    #sectionContacto article {
+        padding: 30px;
+        text-align: center;
+    }
 
-#sectionContacto h2 {
-    text-align: center;
-    margin: 1% 0;
-    padding: 15px 0;
-}
+    #sectionContacto h2 {
+        text-align: center;
+        margin: 1% 0;
+        padding: 15px 0;
+    }
 
-#sectionContacto h2, label{
-    color: white;
-}
+    #sectionContacto h2, label {
+        color: white;
+    }
 
-#sectionContacto form{
-    margin-top: 5%;
-    padding: 30px;
-    border: 1px solid rgb(248, 194, 94);
-}
+    #sectionContacto form {
+        margin-top: 5%;
+        padding: 30px;
+        border: 1px solid rgb(248, 194, 94);
+    }
 
-#sectionContacto div {
-    padding: 20px;
-}
+    #sectionContacto div {
+        padding: 20px;
+    }
 
 .btnContacto{
     text-transform: uppercase;
@@ -327,40 +342,27 @@ body {
     margin-bottom: 5px;
 }
 
-.btnContacto:hover{
-    color: rgb(248, 194, 94);
-}
+    .btnContacto:hover{
+        color: rgb(248, 194, 94);
+    }
 
 /*Footer*/
-
-.redesSociales h3{
-    display: flex;
-    color: wheat;
-    font-size: large;
-    padding-top: 100px;
-    justify-content: center;
-}
-
-.redesSociales div{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
 
 footer {
     display: flex;
     align-items: center;
     background-color: black;
     height: 100px;
-    padding-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
-footer p {
-    width: 100%;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
+    footer p {
+        width: 100%;
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
 
 /* MEDIA QUERIES */
 
@@ -381,6 +383,10 @@ footer p {
         display: none;
     }
 
+    .container-fluid{
+        display: none;
+    }
+
     #sectionInscripciones {
         background-image: url(https://www.viajarwashington.com/img/galeria-arte-washington.jpg);
         grid-template-columns: 1fr;
@@ -394,11 +400,11 @@ footer p {
 
 @media screen and (max-width: 1024px) {
     .listaMenu a {
-        color: wheat;
+        color: rgb(248, 194, 94);
     }
 
     footer p {
-        color: wheat;
+        color: rgb(248, 194, 94);
     }
 }
 
